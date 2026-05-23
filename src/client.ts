@@ -17,7 +17,7 @@ import type {
     RoomListenApi,
     RoomRpc,
     RpcClientApi,
-} from "./types";
+} from "./types.js";
 
 const JOIN_EVENT = "room-kit:join";
 const LEAVE_EVENT = "room-kit:leave";

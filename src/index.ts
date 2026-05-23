@@ -1,7 +1,7 @@
-export { ClientSafeError } from "./types";
-export { createRoomClient } from "./client";
-export { defineRoomType } from "./room";
-export { serveRoomType } from "./server";
+export { ClientSafeError } from "./types.js";
+export { createRoomClient } from "./client.js";
+export { defineRoomType } from "./room.js";
+export { serveRoomType } from "./server.js";
 
 export type {
     ClientConnectionState,
@@ -32,4 +32,4 @@ export type {
     ServerAdmissionInput,
     ServerSocketLike,
     VisibleMemberFor,
-} from "./types";
+} from "./types.js";

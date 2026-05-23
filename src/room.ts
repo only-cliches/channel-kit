@@ -1,4 +1,4 @@
-import type { RoomDefinition, RoomSchema } from "./types";
+import type { RoomDefinition, RoomSchema } from "./types.js";
 
 /**
  * Defines a room type using a type-only schema and runtime options.

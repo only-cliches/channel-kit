@@ -1,5 +1,8 @@
 # Changelog
 
+## 1.0.6
+- Fixed bundling issue.
+
 ## 1.0.5
 
 - Made `onAuth` optional in server configs.

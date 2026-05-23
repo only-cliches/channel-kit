@@ -23,8 +23,8 @@ import type {
     ServerAdmission,
     PresenceValueFor,
     VisibleMemberFor,
-} from "./types";
-import { ClientSafeError } from "./types";
+} from "./types.js";
+import { ClientSafeError } from "./types.js";
 
 const JOIN_EVENT = "room-kit:join";
 const LEAVE_EVENT = "room-kit:leave";
